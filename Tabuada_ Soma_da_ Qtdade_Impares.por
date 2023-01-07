@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
 
-    // cria primeiro   a seção das variaveis 
+    // cria primeiro   a seÃ§Ã£o das variaveis 
 
     inteiro contador, limite, resultado, soma, numero,impares
 
@@ -11,7 +11,7 @@ programa {
     impares = 0 
     limite = 10
 escreva ( "---------------------------------------------------------" + "\n")
-    escreva (" Qual é o número da tabuada você quer saber?  " + "\n")
+    escreva (" Qual Ã© o nÃºmero da tabuada vocÃª quer saber?  " + "\n")
     leia (numero)
 escreva ("---------------------------------------------------------"+ "\n")
     faca
@@ -37,7 +37,7 @@ soma = soma + resultado
     enquanto ( contador < = limite)
 escreva ("-------------------------------------------------------------------------"+ "\n")
     escreva ("\n" + " O valor total da tabuada do " + numero + " foi de : " + soma + "\n" )
-    escreva ("\n" + " A quantidade de números ímpares foi de: ", impares)
+    escreva ("\n" + " A quantidade de nÃºmeros Ã­mpares foi de: " + impares + "\n")
 escreva ("------------------------------------------------------------------------" + "\n")    
   }
 
